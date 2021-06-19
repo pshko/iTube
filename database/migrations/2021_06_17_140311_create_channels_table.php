@@ -21,7 +21,7 @@ class CreateChannelsTable extends Migration
             $table->string('name');
             $table->string('slug');
             $table->string('uid');
-            $table->text('descriptions')->nullable();
+            $table->text('description')->nullable();
             $table->string('image')->nullable();
 
             $table->timestamps();
